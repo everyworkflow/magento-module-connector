@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <ew_connect>
+            <general>
+                <enable>1</enable>
+                <mode>test</mode>
+            </general>
+        </ew_connect>
+        <ew_mage_admin>
+            <test>
+                <mage_admin_css_href>http://localhost:7000/mage-admin-build/mage_admin.css</mage_admin_css_href>
+                <mage_admin_js_runtime_src>http://localhost:7000/mage-admin-build/runtime.js</mage_admin_js_runtime_src>
+                <mage_admin_js_src>http://localhost:7000/mage-admin-build/mage_admin.js</mage_admin_js_src>
+            </test>
+            <prod>
+                <mage_admin_css_href></mage_admin_css_href>
+                <mage_admin_js_runtime_src></mage_admin_js_runtime_src>
+                <mage_admin_js_src></mage_admin_js_src>
+            </prod>
+        </ew_mage_admin>
+    </default>
+</config>

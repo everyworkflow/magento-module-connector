@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="EveryWorkflow_Connector::mage_admin" title="EW Mage_Admin" translate="title" module="EveryWorkflow_Connector" sortOrder="20" action="ew_connect/mageadmin/index" dependsOnModule="EveryWorkflow_Connector" resource="EveryWorkflow_Connector::mage_admin" />
+    </menu>
+</config>

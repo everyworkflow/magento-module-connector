@@ -1,0 +1,22 @@
+{
+    "name": "everyworkflow/magento-module-connector",
+    "description": "Connector to connect Magento with EveryWorkflow",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [,
+        {
+            "name": "Durga Shankar Gupta",
+            "email": "dsguptas@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "EveryWorkflow\\Connector\\": ""
+        }
+    }
+}
