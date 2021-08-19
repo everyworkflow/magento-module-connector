@@ -3,7 +3,7 @@
     "description": "Connector to connect Magento with EveryWorkflow",
     "type": "magento2-module",
     "license": "MIT",
-    "authors": [,
+    "authors": [
         {
             "name": "Durga Shankar Gupta",
             "email": "dsguptas@gmail.com"
